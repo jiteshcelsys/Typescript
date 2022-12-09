@@ -1,0 +1,135 @@
+.container{
+  margin: auto;
+  margin-top: 2em;
+    position: relative;
+  width: 20em;
+  min-height: 1.5em;
+  background-color: aqua;
+  border:0.5em solid red;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: .5em;
+  border-radius: .25em;
+
+}
+.value{
+  flex-grow: 1;
+
+}
+.clear-btn{
+  background:none;
+  color: black;
+  border: none;
+  font-size: 1.6em;
+  cursor: pointer;
+
+}
+.clear-btn:focus,.clear-btn:hover{
+  color: rgb(244, 19, 7);
+}
+.divider{
+  background-color: blue;
+  align-self: stretch;
+  width: .05em ;
+}
+.caret{
+  translate: 0 25%;
+  border: .25em solid transparent;
+  border-top-color: yellowgreen;
+}
+.options{
+  position: absolute;
+  margin:  0;
+  padding:  0;
+  list-style: none;
+  display: none;
+  max-height: 15em;
+  overflow-y: auto;
+  border: .05em solid saddlebrown;
+  width: 100%;
+  left: 0;
+  top: 4.5em;
+}
+.options.show{
+  display: block;
+}
+
+.option {
+  padding: .25em .5em;
+  cursor: pointer;
+}
+.option.highlighted{
+  background-color:rgb(64, 176, 227);
+}
+.option.selected{
+  background-color:rgb(9, 104, 148);
+}
+h1{
+  display: inline;
+  display: flex;
+ justify-content: center;
+}
+.Li_style{
+  list-style-type: none;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  color: rgb(32, 4, 32);
+  cursor: pointer;
+  width: 100%;
+}
+.Li_style:hover{
+  background-color: rgba(165, 159, 159, 0.278);
+
+
+}
+
+.InputToDo{
+  margin: auto;
+  margin-top: 2em;
+  width: 15em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+.SubmitButton{
+  display: flex;
+  justify-content: center;
+  padding: 1.2em;
+}
+.Button{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 1.2em;
+  background-color:rgb(41, 52, 41);
+  color: azure;
+  border-radius: 10%;
+  cursor: pointer;
+
+}
+
+.UlList{
+  width: 600px;
+  margin: auto;
+  padding-left: 0;
+  border:2px solid  rgb(32, 4, 32);
+  height: 300px;
+  overflow-y: auto;
+ }
+
+.InputField{
+  color: rgb(41, 25, 25);
+  font-size: larger;
+  padding: 10px;
+  border: 2px solid red;
+  display: block;
+
+
+}
+.InputField:hover{
+  color: rgb(161, 172, 8);
+}
