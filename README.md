@@ -27,6 +27,7 @@ content in the input box , it will throw error
 ## Learning
 
 ● Typescript(various use cases).
+![Screenshot (57)](https://user-images.githubusercontent.com/113659313/213984610-c7618164-d5fd-4479-8401-f0c35b046c0f.png)
 
 
 
