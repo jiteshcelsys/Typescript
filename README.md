@@ -1,9 +1,6 @@
 
 #  Typescript(GroceryList)
-This is the basic project in Typescript where I have made 
-one input box . if the user try to click the submit button
-after entering the content in the input the data is added
- to list box.
+The data is added to the list box if the user clicks the submit button after entering the content in the input box.
  
  
 ## Tools Required
@@ -16,8 +13,8 @@ after entering the content in the input the data is added
 
 
 ## Features
-● if User try to click the submit button without entering the 
-content in the input box , it will throw error 
+●If the user tries to click the submit button without entering the 
+If there is no content in the input box, it will throw an error 
 
 ● Sucessfull clicking the button will result the data to 
  be displayed in list Box.
@@ -36,7 +33,7 @@ content in the input box , it will throw error
 
 I would like to thank my mentor “Rishi Anand” for this
 opportunity. I learned many new things in this project
-Thanks for being a good mentor and for guiding me on
+Thanks for being a helpful mentor and for guiding me on
 the right path.
 
 
